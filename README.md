@@ -40,3 +40,16 @@ A simple and functional Credits System web application built using the **MERN St
 ```bash
 git clone https://github.com/your-username/credits-system.git
 cd credits-system
+```
+
+### 2. Install server dependencies
+```bash
+cd server
+npm install
+```
+
+### 3. Setup Environment Variables
+```bash
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
+```
