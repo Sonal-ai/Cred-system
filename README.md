@@ -42,14 +42,30 @@ git clone https://github.com/your-username/credits-system.git
 cd credits-system
 ```
 
-### 2. Install server dependencies
+### 2. Backend Setup (backendCred/)
 ```bash
-cd server
+cd backendCred
 npm install
 ```
-
-### 3. Setup Environment Variables
+Create a .env file in backendCred/ with the following:
 ```bash
 MONGO_URI=your_mongodb_connection_string
 PORT=5000
 ```
+
+Start the backend server:
+```bash
+npm start
+```
+
+### 3. Frontend Setup (frontendCred/)
+```bash
+cd ../frontendCred
+npm install
+```
+
+Start the frontend:
+```bash
+npm run dev
+```
+
