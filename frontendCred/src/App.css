@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer utilities {
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 8px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: #000; /* Pure black track */
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #444; /* Dark gray thumb */
+      border-radius: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+      background: #666; /* Slightly lighter gray on hover */
+    }
+  }
